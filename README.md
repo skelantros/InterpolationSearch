@@ -1,2 +1,10 @@
-# InterpolationSearch
- Implementation of Interpolation search algorithm for the university course
+# Алгоритм интерполяционного поиска
+Реализация алгоритма интерполяционного поиска в рамках университетского курса.
+
+Структура репозитория:
+ - **src/main/scala/**:
+     - **Main.scala** - запуск вычислительного эксперимента;
+     - **Metric.scala** - вспомогательный интерфейс "метрики", используемый для обобщения алгоритма;
+     - **InterpolationSearch.scala** - обобщенная реализация алгоритма;
+     - **TestingUtils.scala** - вспомогательные функции для проведения тестирования и вычислительного эксперимента.
+ - **src/test/scala/InterpolationSearchTests.scala** - тесты алгоритма на корректность.
